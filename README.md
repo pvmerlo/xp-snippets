@@ -5,10 +5,12 @@
 *** Obrigado novamente! Agora vamos rodar esse projeto incrível :D
 -->
 
-[![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/pvmerlo.enonic-xp-snippets.svg?label=Visual%20Studio%20Marketplace)](https://marketplace.visualstudio.com/items?itemName=pvmerlo.enonic-xp-snippets)
-[![Visual Studio Marketplace Installs](https://img.shields.io/visual-studio-marketplace/i/pvmerlo.enonic-xp-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=pvmerlo.enonic-xp-snippets)
-[![Visual Studio Marketplace Rating](https://img.shields.io/visual-studio-marketplace/r/pvmerlo.enonic-xp-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=pvmerlo.enonic-xp-snippets)
+[![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/pvmerlo.xp-snippets.svg?label=Visual%20Studio%20Marketplace)](https://marketplace.visualstudio.com/items?itemName=pvmerlo.xp-snippets)
+[![Visual Studio Marketplace Installs](https://img.shields.io/visual-studio-marketplace/i/pvmerlo.xp-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=pvmerlo.xp-snippets)
+[![Visual Studio Marketplace Rating](https://img.shields.io/visual-studio-marketplace/r/pvmerlo.xp-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=pvmerlo.xp-snippets)
 ![GitHub](https://img.shields.io/github/license/pvmerlo/xp-snippets.svg)
+[![Project Build](https://api.travis-ci.org/pvmerlo/xp-snippets.svg?branch=master)](https://marketplace.visualstudio.com/items?itemName=pvmerlo.xp-snippets)
+![GitHub](https://api.travis-ci.org/pvmerlo/xp-snippets.svg?branch=master)
 
 <!-- PROJECT LOGO -->
 <br />
