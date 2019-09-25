@@ -14,7 +14,7 @@
 <br />
 <p align="center">
   <a href="https://enonic.com">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Enonic-xp-logo.png" alt="Logo">
+    <img width="50%" src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Enonic-xp-logo.png" alt="Logo">
   </a>
 
   <h3 align="center">Enonic XP Snippets</h3>
@@ -47,12 +47,9 @@ This project aims to expose a set of Snippets and shortcuts to creation of your 
 
 To install an extension you can run the **Command Pallete** through the command `Ctrl + Shift + P` or `Cmd + Shift + P`, type `Install Extensions` and press `Enter`. That done, you can search for Enonic and you will find the **Enonic XP Snippets** extension.
 
-### Linguagens Suportadas
+### Supported languages
 
 - JavaScript (.js)
-- TypeScript (.ts)
-- JavaScript React (.jsx)
-- TypeScript React (.tsx)
 
 ### Como Usar?
 
@@ -75,7 +72,7 @@ Bellow is the list with all available Snippets and their respective triggers. Th
 ## Contributions
 
 Contributions are what makes the open source community a incredible place to learn, inspire and create.
-Any contribution you make will be **very appreciated**
+Any contribution you make will be **very appreciated**.
 
 1. Make a Fork
 2. Create a branch for your feature (`git checkout -b feature/IncredibleFeature`)
