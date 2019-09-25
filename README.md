@@ -5,10 +5,10 @@
 *** Obrigado novamente! Agora vamos rodar esse projeto incrível :D
 -->
 
-[![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/rocketseat.RocketseatReactNative.svg?label=Visual%20Studio%20Marketplace)](https://marketplace.visualstudio.com/items?itemName=rocketseat.RocketseatReactNative)
-[![Visual Studio Marketplace Installs](https://img.shields.io/visual-studio-marketplace/i/rocketseat.RocketseatReactNative.svg)](https://marketplace.visualstudio.com/items?itemName=rocketseat.RocketseatReactNative)
-[![Visual Studio Marketplace Rating](https://img.shields.io/visual-studio-marketplace/r/rocketseat.RocketseatReactNative.svg)](https://marketplace.visualstudio.com/items?itemName=rocketseat.RocketseatReactNative)
-![GitHub](https://img.shields.io/github/license/rocketseat/rocketseat-vscode-react-native-snippets.svg)
+[![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/pvmerlo.enonic-xp-snippets.svg?label=Visual%20Studio%20Marketplace)](https://marketplace.visualstudio.com/items?itemName=pvmerlo.enonic-xp-snippets)
+[![Visual Studio Marketplace Installs](https://img.shields.io/visual-studio-marketplace/i/pvmerlo.enonic-xp-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=pvmerlo.enonic-xp-snippets)
+[![Visual Studio Marketplace Rating](https://img.shields.io/visual-studio-marketplace/r/pvmerlo.enonic-xp-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=pvmerlo.enonic-xp-snippets)
+![GitHub](https://img.shields.io/github/license/pvmerlo/xp-snippets.svg)
 
 <!-- PROJECT LOGO -->
 <br />
@@ -22,9 +22,9 @@
 
 <!-- TABLE OF CONTENTS -->
 
-## Tabela de Conteúdo
+## TABLE OF CONTENTS
 
-- [Content Table](#content-table)
+- [Table of Contents](#content-table)
 - [About the Project](#about-the-project)
 - [Getting Started](#getting-started)
   - [Installation](#installation)
@@ -51,21 +51,21 @@ To install an extension you can run the **Command Pallete** through the command 
 
 - JavaScript (.js)
 
-### Como Usar?
+### How to use?
 
 When you install this Extension, XP development will be faster and funnier!
 
-![Create React Native Component](https://raw.githubusercontent.com/Rocketseat/rocketseat-vscode-react-native-snippets/master/images/component.gif)
+![Create React Native Component](https://raw.githubusercontent.com/pvmerlo/xp-snippets/master/images/component.gif)
 
 ### Snippets
 
 Bellow is the list with all available Snippets and their respective triggers. The **⇥** means `TAB`.
 
-|                 Trigger | Content                                                                       |
-| ----------------------: | ----------------------------------------------------------------------------- |
-|       `addAttachment →` | Adds an attachment to an existing content                                     |
-|              `create →` | This function creates a content                                               |
-|   `createWithHandler →` | This function tries to creates a content                                      |
+|               Trigger | Content                                   |
+| --------------------: | ----------------------------------------- |
+|     `addAttachment →` | Adds an attachment to an existing content |
+|            `create →` | This function creates a content           |
+| `createWithHandler →` | This function tries to creates a content  |
 
 <!-- CONTRIBUTING -->
 
