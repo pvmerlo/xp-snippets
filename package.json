@@ -1,5 +1,5 @@
 {
-  "name": "enonic-xp-snippets",
+  "name": "xp-snippets",
   "description": "Enonic XP Snippets created by @pvmerlo",
   "version": "0.2.0",
   "displayName": "Enonic XP Snippets",
@@ -9,13 +9,21 @@
     "color": "#ff4c36",
     "theme": "dark"
   },
+  "scripts": {
+    "format:sort-json": "sort-json snippets/snippets.json",
+    "format:prettier": "prettier --write *.md snippets/*",
+    "format": "npm run format:sort-json && npm run format:prettier",
+    "publish": "vsce publish",
+    "test": "jest --ci",
+    "test:watch": "jest --watch"
+  },
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/pvmerlo/xp-snippets"
   },
   "engines": {
-    "vscode": "0.10.x"
+    "vscode": "^1.11.0"
   },
   "categories": [
     "Snippets"
@@ -27,5 +35,11 @@
         "path": "./snippets/snippets.json"
       }
     ]
+  },
+  "devDependencies": {
+    "jest": "24.9.0",
+    "prettier": "1.18.2",
+    "sort-json": "^2.0.0",
+    "vsce": "1.66.0"
   }
 }
