@@ -1,4 +1,75 @@
 {
+  "Enonic XP Controller": {
+    "body": [
+      "",
+      "exports.${1|get,post,all|} = handle${1/(.*)/${1:/capitalize}/};",
+      "function handleRequest(request) {",
+      "",
+      "    if (request.mode === 'edit') {",
+      "        // do something...",
+      "    }",
+      "",
+      "    var name = request.params.name;",
+      "    log.info('Name = %s', name);",
+      "",
+      "    return {",
+      "        body: 'Hello ' + name,",
+      "        contentType: 'text/plain'",
+      "    };",
+      "};"
+    ],
+    "description": "Handles a Controller Request",
+    "prefix": [
+      "XP Controller",
+      "Handles Controller Requests",
+      "handleGet",
+      "handlePost",
+      "handleAll",
+      "xpController"
+    ]
+  },
+  "Filter manipulating the request": {
+    "body": [
+      "exports.filter = function (req, next) {",
+      "    req.requestLogging = true; // Manipulate request",
+      "    log.info(\"Request:\" + JSON.stringify(req, null, 2));",
+      "    var response = next(req); // Continue request pipeline",
+      "    response.responseLogging = true; // Manipulate response",
+      "    log.info(\"Response:\" + JSON.stringify(response, null, 2));",
+      "    return response;",
+      "};"
+    ],
+    "description": "Filter manipulating the request",
+    "prefix": ["Filter manipulating the request"]
+  },
+  "Minimal filter timing the subsequent request": {
+    "body": [
+      "exports.filter = function (req, next) {",
+      "    var before = new Date().getTime();",
+      "    var response = next(req);  // next(req) hands over the request to the engine pipeline and returns the response",
+      "    var after = new Date().getTime();",
+      "    log.info((after - before) + 'ms');",
+      "    return response;",
+      "};"
+    ],
+    "description": "Minimal filter timing the subsequent request",
+    "prefix": [
+      "Minimal filter timing the subsequent request",
+      "xpFilter",
+      "filter"
+    ]
+  },
+  "commonLib.sanitize(text)": {
+    "body": [
+      "/**",
+      " * Sanitze string",
+      " * https://developer.enonic.com/docs/xp/stable/api/lib-common#santize",
+      " */",
+      "var sanitizedText = commonLib.sanitize(${1:\"Piña CØLADÆ <script>alert('hi!');</script>\"});"
+    ],
+    "description": "Transform a text string so that it can be safely used in cases where the range of accepted characters is restricted.",
+    "prefix": ["commonLib.sanitize(text)", "sanitize"]
+  },
   "contentLib.addAttachment(params)": {
     "body": [
       "/*",

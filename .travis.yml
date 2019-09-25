@@ -12,6 +12,11 @@ cache:
   
 before_publish:
   - yarn global add vsce
+  - gulp
+
+script:
+  - gulp
+  
 
 publish:
   - vsce package

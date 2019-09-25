@@ -10,7 +10,6 @@
 [![Visual Studio Marketplace Rating](https://img.shields.io/visual-studio-marketplace/r/pvmerlo.xp-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=pvmerlo.xp-snippets)
 ![GitHub](https://img.shields.io/github/license/pvmerlo/xp-snippets.svg)
 [![Project Build](https://api.travis-ci.org/pvmerlo/xp-snippets.svg?branch=master)](https://marketplace.visualstudio.com/items?itemName=pvmerlo.xp-snippets)
-![GitHub](https://api.travis-ci.org/pvmerlo/xp-snippets.svg?branch=master)
 
 <!-- PROJECT LOGO -->
 <br />

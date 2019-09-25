@@ -1,0 +1,13 @@
+{
+  "commonLib.sanitize(text)": {
+    "body": [
+      "/**",
+      " * Sanitze string",
+      " * https://developer.enonic.com/docs/xp/stable/api/lib-common#santize",
+      " */",
+      "var sanitizedText = commonLib.sanitize(${1:\"Piña CØLADÆ <script>alert('hi!');</script>\"});"
+	],
+	"description": "Transform a text string so that it can be safely used in cases where the range of accepted characters is restricted.",
+    "prefix": ["commonLib.sanitize(text)", "sanitize"]
+  }
+}

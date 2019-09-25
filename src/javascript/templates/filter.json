@@ -1,0 +1,29 @@
+{
+  "Minimal filter timing the subsequent request": {
+    "body": [
+      "exports.filter = function (req, next) {",
+      "    var before = new Date().getTime();",
+      "    var response = next(req);  // next(req) hands over the request to the engine pipeline and returns the response",
+      "    var after = new Date().getTime();",
+      "    log.info((after - before) + 'ms');",
+      "    return response;",
+      "};"
+    ],
+    "description": "Minimal filter timing the subsequent request",
+    "prefix": ["Minimal filter timing the subsequent request", "xpFilter", "filter"]
+  },
+  "Filter manipulating the request": {
+    "body": [
+      "exports.filter = function (req, next) {",
+      "    req.requestLogging = true; // Manipulate request",
+      "    log.info(\"Request:\" + JSON.stringify(req, null, 2));",
+      "    var response = next(req); // Continue request pipeline",
+      "    response.responseLogging = true; // Manipulate response",
+      "    log.info(\"Response:\" + JSON.stringify(response, null, 2));",
+      "    return response;",
+      "};"
+    ],
+    "description": "Filter manipulating the request",
+    "prefix": ["Filter manipulating the request"]
+  }
+}
