@@ -1,31 +1,31 @@
 {
-    "name": "enonic-xp-snippets",
-    "description": "Enonic XP Snippets created by @pvmerlo",
-    "version": "0.0.0",
-    "displayName": "Enonic XP Snippets",
-    "publisher": "pvmerlo",
-    "icon": "images/xp.png",
-    "galleryBanner": {
-      "color": "#ff4c36",
-      "theme": "dark"
-    },
-    "license": "MIT",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/pvmerlo/xp-snippets"
-    },
-    "engines": {
-      "vscode": "0.10.x"
-    },
-    "categories": [
-      "Snippets"
-    ],
-    "contributes": {
-      "snippets": [
-        {
-          "language": "javascript",
-          "path": "./snippets/snippets.json"
-        }
-      ]
-    }
+  "name": "enonic-xp-snippets",
+  "description": "Enonic XP Snippets created by @pvmerlo",
+  "version": "0.1.0",
+  "displayName": "Enonic XP Snippets",
+  "publisher": "pvmerlo",
+  "icon": "images/xp.png",
+  "galleryBanner": {
+    "color": "#ff4c36",
+    "theme": "dark"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pvmerlo/xp-snippets"
+  },
+  "engines": {
+    "vscode": "0.10.x"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/snippets.json"
+      }
+    ]
   }
+}
